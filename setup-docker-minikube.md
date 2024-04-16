@@ -18,34 +18,34 @@
 
 ### Install Minikube:
 
-3. **Install Minikube:**
+1. **Install Minikube:**
    Follow the installation instructions (step 1 only)
    https://minikube.sigs.k8s.io/docs/start/
 
-5. **Start Minikube:**
+2. **Start Minikube:**
    Open a terminal (or command prompt) and run the following command to start Minikube:
    ```
    minikube start --driver=docker
    ```
    This command starts Minikube using the Docker driver. It may take a few minutes to download the necessary Docker images and start the Minikube cluster.
 
-6. Verify Installation:
+3. Verify Installation:
    ```
    kubectl cluster-info
    ```
 
-7. Set Docker Environment Variables:
+4. Set Docker Environment Variables:
    If you're using Docker Desktop on Windows or macOS, you may need to set environment variables to enable Docker CLI to connect to Minikube's Docker daemon.
    ```
    eval $(minikube -p minikube docker-env)
    ```
 
-8. Start Minikube:
+5. Start Minikube:
    ```
    minikube start
    ```
 
-9. Explore minikube dashboard:
+6. Explore minikube dashboard:
    ```
    minikube dashboard
    ```
