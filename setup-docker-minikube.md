@@ -35,13 +35,7 @@
    ```
    You should see information about the Kubernetes cluster running on Minikube.
 
-4. Set Docker Environment Variables:
-   If you're using Docker Desktop on Windows or macOS, you may need to set environment variables to enable Docker CLI to connect to Minikube's Docker daemon.
-   ```
-   eval $(minikube -p minikube docker-env)
-   ```
-
-5. Explore minikube dashboard:
+4. Explore minikube dashboard:
    ```
    minikube dashboard
    ```
