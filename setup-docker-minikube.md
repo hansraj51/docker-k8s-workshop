@@ -41,12 +41,7 @@
    eval $(minikube -p minikube docker-env)
    ```
 
-5. Start Minikube:
-   ```
-   minikube start
-   ```
-
-6. Explore minikube dashboard:
+5. Explore minikube dashboard:
    ```
    minikube dashboard
    ```
